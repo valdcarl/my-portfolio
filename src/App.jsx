@@ -6,6 +6,8 @@ import './App.css'
 import React from 'react'
 // importing Timeline component
 import Timeline from './components/Timeline'
+// importing Footer component
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +31,10 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </>
   )
