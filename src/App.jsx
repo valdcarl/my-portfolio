@@ -15,6 +15,9 @@ function App() {
   return (
     <>
       <div>
+        Hello, Placement for NavBar
+      </div>
+      <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -22,15 +25,12 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+
       <h1>WIP Portfolio Website</h1>
       <h3>Timeline In-Progress</h3>
+
       <div>
         <Timeline />
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
       </div>
 
       <div>
