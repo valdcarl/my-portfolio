@@ -9,7 +9,6 @@ const Timeline = () => {
     console.log("Timeline componenet rendering...")
     return (
         <div>
-            <h2 className='text-emerald-700'>By: Carlos A. Valdez</h2>
            <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"

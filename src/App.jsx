@@ -14,21 +14,22 @@ function App() {
 
   return (
     <>
+      {/* Navbar */}
       <div>
         <Navbar />
       </div>
       
+      {/* About */}
       <div>
         <About />
       </div>
-
-      <h1>WIP Portfolio Website</h1>
-      <h3>Timeline In-Progress</h3>
-
+      
+      {/* Timeline */}
       <div>
         <Timeline />
       </div>
 
+      {/* Footer */}
       <div>
         <Footer />
       </div>
