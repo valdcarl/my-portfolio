@@ -1,8 +1,10 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
 
-import React from 'react'
+// importing Navbar component
+import Navbar from './components/Navbar'
+// importing About component
+import About from './components/About'
 // importing Timeline component
 import Timeline from './components/Timeline'
 // importing Footer component
@@ -13,15 +15,11 @@ function App() {
   return (
     <>
       <div>
-        Hello, Placement for NavBar
+        <Navbar />
       </div>
+      
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <About />
       </div>
 
       <h1>WIP Portfolio Website</h1>

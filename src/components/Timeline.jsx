@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 // react-vertical-timeline-component
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
