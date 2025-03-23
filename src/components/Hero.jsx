@@ -21,8 +21,12 @@ function Hero() {
                     </p>
                 </div>
                 <button className="hero--section--button button--primary">
-                    <a className="hero--section--button-atag"href="https://www.linkedin.com/in/carlos-valdez-cv/">
-                    Let's Talk!
+                    <a 
+                        className="hero--section--button-atag"
+                        href="https://www.linkedin.com/in/carlos-valdez-cv/"
+                        target="_blank"
+                        rel="noopener norefferrer">
+                        Let's Talk!
                     </a>
                 </button>
             </div>

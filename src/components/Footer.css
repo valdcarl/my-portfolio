@@ -1,0 +1,16 @@
+/* Footer.css file */
+
+.footer--section {
+    text-align: center;
+}
+
+.footer--section--icons {
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+}
+
+.footer--section--icons:hover {
+    color: #FF5F1F;
+}
