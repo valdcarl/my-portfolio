@@ -1,0 +1,42 @@
+/* Hero.css file */
+
+.hero--section {
+    display: flex;
+    background: #383838;
+    border-radius: 1%;
+}
+
+.hero--section--title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.hero--section--title--header {
+    margin-top: 0;
+
+}
+
+.hero--section--title--colored {
+    color: #FF5F1F;
+}
+
+.hero--section--description {
+    text-align: center;
+    font-size: large;
+    margin-left: 24px;
+}
+
+.hero--section--button {
+    background-color: #0077B5;
+    margin: 12px;
+}
+
+.hero--section--button-atag {
+    color: #FFFFFF;
+}
+
+.hero--section--button-atag:hover {
+    color: #FF5F1F;
+    transition: 0.5s;
+}
