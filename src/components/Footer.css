@@ -4,13 +4,18 @@
     text-align: center;
 }
 
+.footer--section--description {
+    color: #DAD6CF;
+
+}
+
 .footer--section--icons {
     justify-content: center;
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     color: black;
 }
 
 .footer--section--icons:hover {
-    color: #FF5F1F;
+    color: #FC3636;
 }

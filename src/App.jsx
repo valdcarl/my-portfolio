@@ -10,11 +10,15 @@ function App() {
   return (
     <>
     {/* Setting up routes */}
-      <Router>
-        <Routes>
-            <Route path="/" element={<Hero />} />
-        </Routes>
-      </Router>
+      <div>
+        <Router>
+            <div>
+                <Routes>
+                    <Route path="/" element={<Hero />} />
+                </Routes>
+            </div>
+        </Router>
+      </div>
     <Footer/>
     </>
   )

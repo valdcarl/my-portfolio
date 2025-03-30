@@ -1,0 +1,12 @@
+.vertical-timeline-element {
+    text-align: left;
+  }
+
+.vertical-timeline-element ul {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adds spacing between list items */
+    padding-left: 30px;
+    list-style-position: outside;
+  }

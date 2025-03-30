@@ -2,41 +2,50 @@
 
 .hero--section {
     display: flex;
-    background: #383838;
+    background: #DAD6CF;
     border-radius: 1%;
 }
 
 .hero--section--title {
+    color: #000000;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 0;
 }
 
 .hero--section--title--header {
+    color: #000000;
     margin-top: 0;
 
 }
 
 .hero--section--title--colored {
-    color: #FF5F1F;
+    color: #FC3636;
 }
 
 .hero--section--description {
-    text-align: center;
+    color: #000000;
+    text-align:justify-center;
     font-size: large;
     margin-left: 24px;
 }
 
 .hero--section--button {
-    background-color: #0077B5;
+    background-color: #FC3636;
     margin: 12px;
+    border-radius: 4rem;
+}
+
+.hero--section--button:hover {
+    border-color: #000000;
+    border-radius: 4rem;
 }
 
 .hero--section--button-atag {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .hero--section--button-atag:hover {
-    color: #FF5F1F;
+    color: #000000;
     transition: 0.5s;
 }
