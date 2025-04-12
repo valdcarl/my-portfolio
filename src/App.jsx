@@ -1,25 +1,28 @@
 import './App.css'
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import About from './components/Projects'
 import Footer from './components/Footer'
+import Projects from './components/Projects'
 
 function App() {
 
   return (
     <>
-    {/* Setting up routes */}
-      <div>
-        <Router>
-            <div>
-                <Routes>
-                    <Route path="/" element={<Hero />} />
-                </Routes>
-            </div>
-        </Router>
-      </div>
-    <Footer/>
+        <Navbar />
+            <main>
+            <section id="hero">
+                <Hero />
+            </section>
+            <section id="projects">
+                <Projects />
+            </section>
+            <section id="contact">
+                {/* Replace with actual <Contact /> component */}
+            </section>
+        </main>
+      <Footer />
     </>
   )
 }

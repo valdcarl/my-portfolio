@@ -36,3 +36,7 @@
 .card {
   padding: 2em;
 }
+
+html {
+    scroll-behavior: smooth;
+}
