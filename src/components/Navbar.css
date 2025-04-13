@@ -1,0 +1,49 @@
+/* Navbar.css*/
+
+.navbar--main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, transparent, rgba(15, 15, 15, 0.9), transparent);
+    color: white;
+    position: sticky;
+    z-index: 1000;
+}
+
+.navbar--logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+    padding-left: 50px;
+}
+
+.navbar--itemlinks {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.5s ease;
+    padding-right: 30px;
+}
+
+.navbar--itemlinks li {
+    display: inline;
+}
+
+.navbar--itemlinks li a {
+    font-family: 'Space Mono', monospace;
+    color: white;           /* Text color white */
+    font-weight: bold;       /* Make text bold */
+    text-decoration: none;   /* Remove underline */
+    font-size: 1.3rem;        
+    transition: color 0.5s;  
+}
+
+.navbar--itemlinks li a:hover {
+    color: #FC3636;
+}

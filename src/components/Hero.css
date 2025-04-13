@@ -4,6 +4,9 @@
     display: flex;
     background: #DAD6CF;
     border-radius: 1%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-top: 2rem;
 }
 
 .hero--section--title {
